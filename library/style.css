@@ -1,0 +1,70 @@
+.wrapper{
+    width: 100%;
+}
+
+.front-page{
+    height: 690px;
+    color: white;
+}
+
+.library-name{
+    font-size: 30px;
+    font-family: Forum;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: black;
+    padding: 0 20px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation-item {
+    font-size: 20px;
+    margin: 15px;
+    font-family: Inter;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.welcome {
+    padding-top: 255px;
+    height: 345px;
+    width: 100%;
+    /* background-image: url("/library/files/images/welcome.png"); */
+    background-color: blue;
+}
+
+.welcome-block {
+    margin-left: 20px;
+    width: 600px;
+    height: 220px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-block-text {
+    font-family: Forum;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    margin: 0px;
+}
