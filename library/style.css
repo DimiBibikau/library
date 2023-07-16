@@ -110,6 +110,25 @@ section{
     background-color: white;
 }
 
+.favorites-carousel{
+    width: calc(100% - 40px);
+}
+
+.favorites-carousel_radio{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.favorites-radio_box{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-bottom: 40px;
+}
+
 .favorites-carousel_frame{
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +155,8 @@ section{
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
 }
 
 .book-header::after{
@@ -159,18 +180,20 @@ section{
     font-weight: 900;
 }
 
+.book_heading{
+    text-transform: uppercase;
+}
+
 .book_description {
     font-weight: 100;
     width: 355px;
 }
 
 
-
-
 .book_cover{
     position: absolute;
     bottom: 0px;
-    right: 20px;
+    right: -40px;
 }
 
 .book_button{
@@ -336,7 +359,12 @@ section{
     line-height: 40px;
 }
 
-
+.socials {
+    display: flex;
+    justify-content: space-between;
+    margin-top:18px;
+    width: 102px;
+}
 
 
 .section-header-box{
