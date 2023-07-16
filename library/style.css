@@ -2,8 +2,13 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 auto;
+    /* padding: 0 auto; */
 }
+
+section{
+    padding: 0 20px;
+}
+
 
 .front-page{
     height: 690px;
@@ -87,7 +92,7 @@
 
 .about-carousel{
     max-width: 1600px;
-    width: calc(100% - 40px);
+    width: calc(100%);
     padding: 0;
     margin: 0;
 }
@@ -110,6 +115,63 @@
     background-color: white;
 }
 
+.coffee-shop_annotation{
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: center;
+    width: calc(100% - 40px);
+}
+
+.coffee-shop_container{
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+}
+
+.menu-column_header{
+    font-family: Forum;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #BB945F;
+}
+
+.menu-column_box{
+    width:400px;
+}
+
+.menu-column_box_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item_name{
+    position: relative;
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.menu-item_name::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left:calc(100% + 50px);
+    width: 100px;
+    border: 1px solid #BB945F;
+}
+
+.menu-item_price{
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+
 .contacts{
     height: 575px;
     background-color: white;
@@ -125,7 +187,7 @@
     background-color: black;
     color: white;
     font-family: Inter;
-    padding: 20px 20px 20px 43px;
+    padding: 0px 20px 0px 20px ;
 }
 
 .upper-footer{
@@ -136,6 +198,7 @@
     letter-spacing: 0px;
     line-height: 20px;
     border-bottom: 1px solid whitesmoke;
+    margin-top: 40px;
 }
 
 .footer-left{
@@ -161,6 +224,15 @@
     font-size: 20px;
     letter-spacing: 2px;
     line-height: 40px;
+}
+
+
+
+
+.section-header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-header{
