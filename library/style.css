@@ -1,0 +1,488 @@
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding: 0 auto; */
+}
+
+section{
+    padding: 0 20px;
+}
+
+
+.front-page{
+    height: 690px;
+    color: white;
+    background: url('/library/files/images/front-page.png');
+}
+
+.library-name{
+    font-size: 30px;
+    font-family: Forum;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: black;
+    padding: 0 20px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation-item {
+    font-size: 20px;
+    margin: 15px;
+    font-family: Inter;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.profile-pic{
+
+}
+
+.welcome {
+    padding-top: 255px;
+    height: 345px;
+    width: 100%;
+    /* background-image: url("/library/files/images/welcome.png"); */
+    /* background-color: blue; */
+}
+
+.welcome-block {
+    margin-left: 20px;
+    width: 600px;
+    height: 220px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-block-text {
+    font-family: Forum;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+.about{
+    height: 837px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-carousel{
+    max-width: 1600px;
+    width: calc(100%);
+    padding: 0;
+    margin: 0;
+}
+
+.about-carousel_frame{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.favorites{
+    height: 1490px;
+    background-color: white;
+}
+
+.favorites-carousel{
+    width: calc(100% - 40px);
+}
+
+.favorites-carousel_radio{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.favorites-radio_box{
+    display: flex;
+
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.favorites-carousel_annotation{
+    padding: 10px;
+    margin: 0;
+}
+
+.favorites-radio_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    margin-bottom: 40px;
+}
+
+.favorites-carousel_frame{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1050px;
+}
+
+.book_frame{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    height: 555px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+}
+
+.book-header{
+    position: relative;
+    font-family: Forum;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.book-header::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 60px;
+    border: 1px solid #BB945F;
+}
+
+.book_heading, .book_author, .book_description{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.book_heading, .book_author {
+    font-weight: 900;
+}
+
+.book_heading{
+    text-transform: uppercase;
+}
+
+.book_description {
+    font-weight: 100;
+    width: 355px;
+}
+
+.book_cover{
+    position: absolute;
+    bottom: -1px;
+    right: -40px;
+}
+
+.book_button{
+    width: 75px;
+    height: 30px;
+}
+
+
+.coffee-shop{
+    box-sizing: border-box;
+    height: 841px;
+    background-color: white;
+}
+
+.coffee-shop_annotation{
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.coffee-shop_container{
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+}
+
+.menu-column_header{
+    font-family: Forum;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #BB945F;
+}
+
+.menu-column_box{
+    width:400px;
+}
+
+.menu-column_box_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item_name{
+    position: relative;
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.menu-item_name::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left:calc(100% + 50px);
+    width: 100px;
+    border: 1px solid #BB945F;
+}
+
+.menu-item_price{
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.contacts{
+    height: 575px;
+    background-color: white;
+}
+
+.contacts_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.contact_sub-header{
+    font
+}
+
+
+.library-card{
+    height: 614px;
+    background-color: white;
+}
+
+.library-card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.left_header{
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 100;
+}
+
+.library-card_form{
+    box-sizing: border-box;
+    width: 600px;
+    height: 386px;
+    border: 3px solid #BB945F;
+    padding: 20px 20px 30px 20px;
+}
+
+.library-card_colored-field{
+    background-color: #BB945F;
+    padding: 15px;
+}
+
+.library-card_input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.library-card_heading {
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.library-card-input{
+    box-sizing: border-box;
+    width: 520px;
+    height: 66px;
+    padding-left: 20px;
+    background-color: white;
+    border: 1px solid #BB945F;
+    color:#8E8E8E;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.library-card_button{
+    align-self: center;
+    width: 242px;
+    height: 44px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.library-card_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 460px;
+    height: 253px;
+    text-align: right;
+}
+
+.reader-button{
+    height: 30px;
+    width: 75px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.right_header{
+    font-family: Forum;
+}
+
+.footer{
+    height: 250px;
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    padding: 0px 20px 0px 20px ;
+}
+
+.upper-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding-top: 20px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    border-bottom: 1px solid whitesmoke;
+    margin-top: 40px;
+}
+
+.footer-left{
+    width: 230px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text-block{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    margin-top:18px;
+    width: 102px;
+}
+
+
+.section-header-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header{
+    font-family: Forum;
+    font-size: 40px;
+    position: relative;
+}
+
+.section-header::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 25px);
+    width: 50px;
+    border: 1px solid #0c0c0E;
+}
+
+.section-header_annotation{
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.small-text{
+    font-family: Inter;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
