@@ -1,10 +1,14 @@
 .wrapper{
     width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .front-page{
     height: 690px;
     color: white;
+    background: url('/library/files/images/front-page.png');
 }
 
 .library-name{
@@ -41,12 +45,16 @@
     list-style: none;
 }
 
+.profile-pic{
+
+}
+
 .welcome {
     padding-top: 255px;
     height: 345px;
     width: 100%;
     /* background-image: url("/library/files/images/welcome.png"); */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .welcome-block {
@@ -67,4 +75,35 @@
     line-height: 50px;
     letter-spacing: 3px;
     margin: 0px;
+}
+
+.about{
+    height: 837px;
+    background-color: white;
+}
+
+.favorites{
+    height: 1439px;
+    background-color: white;
+}
+
+.coffee-shop{
+    height: 841px;
+    background-color: white;
+}
+
+.contacts{
+    height: 575px;
+    background-color: white;
+}
+
+.library-card{
+    height: 614px;
+    background-color: white;
+}
+
+.footer{
+    height: 250px;
+    background-color: black;
+    color: white;
 }
