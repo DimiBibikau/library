@@ -80,6 +80,26 @@
 .about{
     height: 837px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header{
+    font-family: Forum;
+    font-size: 40px;
+}
+
+.section-header_annotation{
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.about-carousel{
+    /* max-width: 1400px; */
+    width: calc(100% - 40px);
+    padding: 0;
+    margin: 0;
 }
 
 .favorites{
