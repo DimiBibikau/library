@@ -206,11 +206,22 @@ section{
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.left_header{
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 100;
 }
 
 .library-card_right{
     width: 460px;
     text-align: right;
+}
+
+.right_header{
+    font-family: Forum;
 }
 
 .footer{
