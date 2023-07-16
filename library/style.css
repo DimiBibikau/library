@@ -110,6 +110,75 @@ section{
     background-color: white;
 }
 
+.favorites-carousel_frame{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1050px;
+}
+
+.book_frame{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    height: 555px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+}
+
+.book-header{
+    position: relative;
+    font-family: Forum;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.book-header::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 60px;
+    border: 1px solid #BB945F;
+}
+
+.book_heading, .book_author, .book_description{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.book_heading, .book_author {
+    font-weight: 900;
+}
+
+.book_description {
+    font-weight: 100;
+    width: 355px;
+}
+
+
+
+
+.book_cover{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.book_button{
+    width: 75px;
+    height: 30px;
+}
+
+
 .coffee-shop{
     height: 841px;
     background-color: white;
@@ -170,7 +239,6 @@ section{
     letter-spacing: 2px;
     line-height: 40px;
 }
-
 
 .contacts{
     height: 575px;
