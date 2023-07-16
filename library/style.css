@@ -177,9 +177,40 @@ section{
     background-color: white;
 }
 
+.contacts_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.contact_sub-header{
+    font
+}
+
+
 .library-card{
     height: 614px;
     background-color: white;
+}
+
+.library-card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.library-card_right{
+    width: 460px;
+    text-align: right;
 }
 
 .footer{
