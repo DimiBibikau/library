@@ -106,7 +106,7 @@ section{
 }
 
 .favorites{
-    height: 1439px;
+    height: 1490px;
     background-color: white;
 }
 
@@ -124,6 +124,20 @@ section{
 
 .favorites-radio_box{
     display: flex;
+
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.favorites-carousel_annotation{
+    padding: 10px;
+    margin: 0;
+}
+
+.favorites-radio_box{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 700px;
     margin-bottom: 40px;
@@ -189,10 +203,9 @@ section{
     width: 355px;
 }
 
-
 .book_cover{
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     right: -40px;
 }
 
@@ -203,6 +216,7 @@ section{
 
 
 .coffee-shop{
+    box-sizing: border-box;
     height: 841px;
     background-color: white;
 }
@@ -213,7 +227,7 @@ section{
     letter-spacing: 2px;
     line-height: 40px;
     text-align: center;
-    width: calc(100% - 40px);
+    width: 100%;
 }
 
 .coffee-shop_container{
@@ -306,9 +320,81 @@ section{
     font-weight: 100;
 }
 
+.library-card_form{
+    box-sizing: border-box;
+    width: 600px;
+    height: 386px;
+    border: 3px solid #BB945F;
+    padding: 20px 20px 30px 20px;
+}
+
+.library-card_colored-field{
+    background-color: #BB945F;
+    padding: 15px;
+}
+
+.library-card_input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.library-card_heading {
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.library-card-input{
+    box-sizing: border-box;
+    width: 520px;
+    height: 66px;
+    padding-left: 20px;
+    background-color: white;
+    border: 1px solid #BB945F;
+    color:#8E8E8E;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.library-card_button{
+    align-self: center;
+    width: 242px;
+    height: 44px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
 .library-card_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 460px;
+    height: 253px;
     text-align: right;
+}
+
+.reader-button{
+    height: 30px;
+    width: 75px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 10px;
 }
 
 .right_header{
@@ -368,6 +454,7 @@ section{
 
 
 .section-header-box{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
